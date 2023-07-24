@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FullAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 2b9526a0610059144862df062285f4b0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1000110821, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: 1738214298, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: 4507659, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: 1193130102, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: 103250482, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: -676034666, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: -462637322, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: -861066805, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: -1218568715, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: 1699045704, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: -1759743265, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  - {fileID: -2070235937, guid: eaeeb80f9becfeb4287065bb37824109, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Base_10
+  - Base_11
+  - Base_5
+  - Base_4
+  - Base_7
+  - Base_6
+  - Base_1
+  - Base_0
+  - Base_3
+  - Base_2
+  - Base_9
+  - Base_8
+  m_RenderDataMap: {}
+  m_Tag: FullAtlas
+  m_IsVariant: 0
