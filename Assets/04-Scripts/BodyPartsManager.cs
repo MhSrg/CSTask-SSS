@@ -44,6 +44,7 @@ public class BodyPartsManager : MonoBehaviour
                     animationClip = Resources.Load<AnimationClip>("Player Animations/" + partType + "/" + partType + "_" + partID + "_" + state + "_" + direction);
 
                     defaultAnimationClips[partType + "_" + 0 + "_" + state + "_" + direction] = animationClip;
+                    Debug.Log("Llegué hasta aquí");
                 }
             }
         }
