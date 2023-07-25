@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367f6a35e3819c4469a7e6dc38893623, type: 3}
   m_Name: Bottom 0
   m_EditorClassIdentifier: 
-  bodyPartName: Base Bottom
+  bodyPartName: Bottom 0
   bodyPartAnimationID: 0
   allBodyPartAnimations:
   - {fileID: 7400000, guid: 7bcf596da70a546419fd0ee1feb6ca53, type: 2}
