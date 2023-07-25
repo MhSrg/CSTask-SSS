@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterBodyParts:
   - bodyPartName: Head
-    bodypart: {fileID: 11400000, guid: b46f570f318ef794984342b5694910af, type: 2}
+    bodyPart: {fileID: 11400000, guid: b46f570f318ef794984342b5694910af, type: 2}
   - bodyPartName: Body
-    bodypart: {fileID: 11400000, guid: 4daf9317fe516404ead1e0457a018f4e, type: 2}
+    bodyPart: {fileID: 11400000, guid: 4daf9317fe516404ead1e0457a018f4e, type: 2}
   - bodyPartName: Bottom
-    bodypart: {fileID: 11400000, guid: 2817cbddc89f0c747ad5fd7d81601c94, type: 2}
+    bodyPart: {fileID: 11400000, guid: 2817cbddc89f0c747ad5fd7d81601c94, type: 2}
