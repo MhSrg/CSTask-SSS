@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BodyPartsSelector : MonoBehaviour
 {
@@ -82,6 +83,6 @@ public class BodyPartSelection
 {
     public string bodyPartName;
     public SO_BodyPart[] bodyPartOptions;
-    public Text bodyPartNameTextComponent;
+    public TextMeshProUGUI bodyPartNameTextComponent;
     [HideInInspector] public int bodyPartCurrentIndex;
 }
