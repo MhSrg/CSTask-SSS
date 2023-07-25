@@ -15,11 +15,11 @@ MonoBehaviour:
   bodyPartName: Body 1
   bodyPartAnimationID: 1
   allBodyPartAnimations:
-  - {fileID: 7400000, guid: 5728309fd809ddb4faf949619c4404ae, type: 2}
-  - {fileID: 7400000, guid: a4822fbade1f84b43a0020f0d8f6cc95, type: 2}
-  - {fileID: 7400000, guid: 0dae9ab204a5984429f98c08aa6d49af, type: 2}
-  - {fileID: 7400000, guid: 8c3ffa9a62e6fd64db5cb55f780dd1f0, type: 2}
-  - {fileID: 7400000, guid: 1a9fe47722c031b4f94fa25349a58423, type: 2}
-  - {fileID: 7400000, guid: b4b2ed14be1bdd641907ded1459ee299, type: 2}
-  - {fileID: 7400000, guid: 61d6a3391ad2a6d4a8bf1752bf6c4cfe, type: 2}
-  - {fileID: 7400000, guid: 00fd038e561b3884caa2526c0811093a, type: 2}
+  - {fileID: 7400000, guid: c2cdd1477319cac4f942384963f5c5ca, type: 2}
+  - {fileID: 7400000, guid: 5e6a82c4207063d4581e0da1c35d1579, type: 2}
+  - {fileID: 7400000, guid: ccbf8a32c0bf53f438004254ebab60e9, type: 2}
+  - {fileID: 7400000, guid: 88c399253d957454cbd8af70e53c33bc, type: 2}
+  - {fileID: 7400000, guid: 5ddfd11f04ba71445958ed52ca0a1646, type: 2}
+  - {fileID: 7400000, guid: 9a932c3db65a2514e91a059fe2a731fa, type: 2}
+  - {fileID: 7400000, guid: 60846c1502fe792489d589f635d00ff0, type: 2}
+  - {fileID: 7400000, guid: 3c9ddf5943d16c04fbbf64cb4b5c5c95, type: 2}

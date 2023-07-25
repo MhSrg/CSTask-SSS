@@ -30,6 +30,7 @@ public class BodyPartsSelector : MonoBehaviour
             }
 
             UpdateCurrentPart(partIndex);
+            Debug.Log("Current Body Part:" + bodyPartSelections[partIndex].bodyPartCurrentIndex);
         }
     }
 
