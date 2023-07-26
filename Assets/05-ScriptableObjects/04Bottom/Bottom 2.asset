@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367f6a35e3819c4469a7e6dc38893623, type: 3}
+  m_Name: Bottom 2
+  m_EditorClassIdentifier: 
+  bodyPartName: Bottom 2
+  bodyPartAnimationID: 2
+  buyPrice: 15
+  sellPrice: 13
+  spriteOnShop: {fileID: 1361802891, guid: 046eb59c16a7d67429ec2e3e0deec90f, type: 3}
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 1b6ad957da0f43645acd3ed27b1c7c08, type: 2}
+  - {fileID: 7400000, guid: 1f7f1e494a1f3594ca723873a9886a16, type: 2}
+  - {fileID: 7400000, guid: 3f3922fbe9135bb4f805b50b7ee2a0bd, type: 2}
+  - {fileID: 7400000, guid: 27989a25e1721ef409198bedd8834239, type: 2}
+  - {fileID: 7400000, guid: 50fc2eb598d737a4d841b298570abe0a, type: 2}
+  - {fileID: 7400000, guid: 46e3e9b2b29cbe544898a8f694db886e, type: 2}
+  - {fileID: 7400000, guid: f53421348cfdc6947b00bd878ebc5c2d, type: 2}
+  - {fileID: 7400000, guid: 957c036f71ff0dc4e9eec09929b78f05, type: 2}

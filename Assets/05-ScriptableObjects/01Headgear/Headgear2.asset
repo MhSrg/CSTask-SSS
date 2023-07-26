@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367f6a35e3819c4469a7e6dc38893623, type: 3}
+  m_Name: Headgear2
+  m_EditorClassIdentifier: 
+  bodyPartName: Headgear 2
+  bodyPartAnimationID: 2
+  buyPrice: 12
+  sellPrice: 8
+  spriteOnShop: {fileID: -651925558, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: fd07c6cf3a4ce0e45b860b052e31a74d, type: 2}
+  - {fileID: 7400000, guid: 55a2fc5fe7dd25040bfa35d3261b6063, type: 2}
+  - {fileID: 7400000, guid: 25bd165d608e684458d8a1cea2bdfc98, type: 2}
+  - {fileID: 7400000, guid: 395006fd95eb741468e1112d8ec43704, type: 2}
+  - {fileID: 7400000, guid: e6ce06931e4408d4c869bc893f350a5c, type: 2}
+  - {fileID: 7400000, guid: 70fe8b8b0d57a2141ae718a0834cb5f4, type: 2}
+  - {fileID: 7400000, guid: 2c984de82ed162443a90de92a9c2e1b6, type: 2}
+  - {fileID: 7400000, guid: e1ba0217abb07014f84c68d8b34a3af9, type: 2}

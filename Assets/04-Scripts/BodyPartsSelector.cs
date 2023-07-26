@@ -34,6 +34,11 @@ public class BodyPartsSelector : MonoBehaviour
         }
     }
 
+    public void BodyPartZero(int partIndex)
+    {
+        bodyPartSelections[partIndex].bodyPartCurrentIndex = 0;
+    }
+
     public void PreviousBody(int partIndex)
     {
         if (ValidateIndexValue(partIndex))

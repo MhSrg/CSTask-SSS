@@ -15,6 +15,10 @@ public class BodyPartsManager : MonoBehaviour
     private AnimatorOverrideController animatorOverrideController;
     private AnimationClipOverrides defaultAnimationClips;
 
+    public string currentBodyPartAttachedHeadgear;
+    public string currentBodyPartAttachedBody;
+    public string currentBodyPartAttachedBottoms;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -49,6 +53,7 @@ public class BodyPartsManager : MonoBehaviour
         }
 
         animatorOverrideController.ApplyOverrides(defaultAnimationClips);
+
     }
 
     public class AnimationClipOverrides : List<KeyValuePair<AnimationClip, AnimationClip>>

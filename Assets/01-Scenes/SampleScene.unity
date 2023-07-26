@@ -46144,6 +46144,9 @@ MonoBehaviour:
   - Left
   - Down
   - Up
+  currentBodyPartAttachedHeadgear: 
+  currentBodyPartAttachedBody: 
+  currentBodyPartAttachedBottoms: 
 --- !u!212 &1404434447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -50825,7 +50828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1516823359
 RectTransform:
   m_ObjectHideFlags: 0
@@ -70537,6 +70540,11 @@ MonoBehaviour:
   shopItems:
   - {fileID: 11400000, guid: a58bc5a8be3b96645b5631c5ad250d7e, type: 2}
   - {fileID: 11400000, guid: 1b37b055ff57ff24e8a81af5bb0848ff, type: 2}
+  shopItems2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   partsOwnedToSellList:
   - {fileID: 11400000, guid: a58bc5a8be3b96645b5631c5ad250d7e, type: 2}
   - {fileID: 11400000, guid: 1b37b055ff57ff24e8a81af5bb0848ff, type: 2}
@@ -70577,8 +70585,11 @@ MonoBehaviour:
   - {fileID: 128206329}
   - {fileID: 286687146}
   dialogueScript: {fileID: 1447512154}
+  bodyPartsManagerScript: {fileID: 0}
+  bodyPartsSelectorScript: {fileID: 0}
   chooseShop: {fileID: 1410480963}
   buyShop: {fileID: 1811614671}
+  selectedBody: {fileID: 0}
 --- !u!1 &2115510251
 GameObject:
   m_ObjectHideFlags: 0
