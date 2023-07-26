@@ -9,6 +9,7 @@ public class ShopManager : MonoBehaviour
     public int gold;
     public TMP_Text goldUI;
     public SO_BodyPart[] shopItems;
+    public SO_BodyPart[] partsOwnedToSellList;
     public GameObject[] shopPanelsGO;
     public ShopTemplate[] shopPanels;
     public Button[] myPurchaseButtons;
@@ -50,9 +51,14 @@ public class ShopManager : MonoBehaviour
 
     public void SellItem(int btnNo)
     {
-        Debug.Log("no alcanzo a comprar");
-        gold = gold + shopItems[btnNo].sellPrice;
+        gold = gold + partsOwnedToSellList[btnNo].sellPrice;
         goldUI.text = gold.ToString();
+        shopPanels[btnNo].soldTxt.enabled = true;
+        shopPanels[btnNo].priceTxt.enabled = false;
+        shopPanels[btnNo].buyButton.enabled = false;
+        /*List<SO_BodyPart> partsRemaining = new List<SO_BodyPart>();
+        partsRemaining.Remove(partsRemaining[btnNo]);
+        SO_BodyPart[] partsRemaining2 = partsRemaining.ToArray();*/
     }
 
     public void AddGold()
