@@ -5,10 +5,12 @@ using UnityEngine;
 public class CollisionCollider : MonoBehaviour
 {
     public SpriteRenderer z;
+    public bool firstConv;
 
     private void Awake()
     {
         z.enabled = false;
+        firstConv = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -24,14 +26,6 @@ public class CollisionCollider : MonoBehaviour
         if (collision.gameObject.name == "2B" || collision.gameObject.name == "desk")
         {
             z.enabled = false;
-        }
-    }
-
-    private void OnCollisionStay(Collision collision)
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-
         }
     }
 }

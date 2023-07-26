@@ -5,8 +5,12 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    public CollisionCollider collisionColliderScript;
+    public GameObject portraitPhoto;
+
     public TextMeshProUGUI textComponent;
     public string[] lines;
+    public string[] linesSK;
     public float textSpeed;
 
     private int index;
@@ -61,6 +65,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            portraitPhoto.SetActive(false);
         }
     }
 }
