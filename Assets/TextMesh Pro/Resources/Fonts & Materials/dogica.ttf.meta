@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd9e86684e3e3974f848660f98f9ca2b
+guid: d5bddbc85f830bf4facc57cec9fcb3c4
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,9 +9,8 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Nexa
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 61622d6da5212924ca685a491ed4e470, type: 3}
+  - Dogica
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
