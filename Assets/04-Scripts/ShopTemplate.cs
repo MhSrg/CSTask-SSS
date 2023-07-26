@@ -6,6 +6,6 @@ using TMPro;
 public class ShopTemplate : MonoBehaviour
 {
     public TMP_Text titleTxt;
-    public TMP_Text descriptionTxt;
+    public Sprite spriteItem;
     public TMP_Text priceTxt;
 }

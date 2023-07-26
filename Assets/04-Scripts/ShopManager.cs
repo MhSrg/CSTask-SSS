@@ -8,7 +8,7 @@ public class ShopManager : MonoBehaviour
 {
     public int gold;
     public TMP_Text goldUI;
-    public SO_Items[] shopItems;
+    public SO_BodyPart[] shopItems;
     public GameObject[] shopPanelsGO;
     public ShopTemplate[] shopPanels;
     public Button[] myPurchaseButtons;
@@ -32,11 +32,6 @@ public class ShopManager : MonoBehaviour
         buyShop.SetActive(false);
     }
 
-    void Update()
-    {
-        
-    }
-
     public void Buy()
     {
         buyShop.SetActive(true);
@@ -44,26 +39,36 @@ public class ShopManager : MonoBehaviour
 
     public void PurchaseItem(int btnNo)
     {
-        if (gold >= shopItems[btnNo].value)
+        if (gold >= shopItems[btnNo].buyPrice)
         {
-            gold = gold - shopItems[btnNo].value;
+            Debug.Log("esto pasa?");
+            gold = gold - shopItems[btnNo].buyPrice;
             goldUI.text = gold.ToString();
             CheckPurchaseable();
         }
+    }
+
+    public void SellItem(int btnNo)
+    {
+        Debug.Log("no alcanzo a comprar");
+        gold = gold + shopItems[btnNo].sellPrice;
+        goldUI.text = gold.ToString();
     }
 
     public void AddGold()
     {
         goldUI.text = gold.ToString();
         CheckPurchaseable();
+        Debug.Log("se añadió oro");
     }
 
     public void LoadItems()
     {
         for (int i = 0; i < shopItems.Length; i++)
         {
-            shopPanels[i].titleTxt.text = shopItems[i].itemName;
-            shopPanels[i].priceTxt.text = shopItems[i].value.ToString();
+            shopPanels[i].titleTxt.text = shopItems[i].bodyPartName;
+            shopPanels[i].spriteItem = shopItems[i].spriteOnShop;
+            shopPanels[i].priceTxt.text = shopItems[i].buyPrice.ToString();
         }
     }
 
@@ -71,7 +76,7 @@ public class ShopManager : MonoBehaviour
     {
         for (int i = 0; i < shopItems.Length; i++)
         {
-            if (gold >= shopItems[i].value)
+            if (gold >= shopItems[i].buyPrice)
             {
                 myPurchaseButtons[i].interactable = true;
             }

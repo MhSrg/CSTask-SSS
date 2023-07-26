@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPartName: Bottom 1
   bodyPartAnimationID: 1
+  buyPrice: 10
+  sellPrice: 8
+  spriteOnShop: {fileID: 1361802891, guid: 046eb59c16a7d67429ec2e3e0deec90f, type: 3}
   allBodyPartAnimations:
   - {fileID: 7400000, guid: 895147ab0ed3c5c42a3297bde94b6a28, type: 2}
   - {fileID: 7400000, guid: f82b60872d74f4146b891d160cea2eb8, type: 2}

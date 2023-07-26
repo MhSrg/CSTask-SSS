@@ -7,6 +7,9 @@ public class SO_BodyPart : ScriptableObject
 {
     public string bodyPartName;
     public int bodyPartAnimationID;
+    public int buyPrice;
+    public int sellPrice;
+    public Sprite spriteOnShop;
 
     public List<AnimationClip> allBodyPartAnimations = new List<AnimationClip>();
 }
