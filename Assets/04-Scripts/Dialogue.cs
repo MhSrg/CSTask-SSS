@@ -21,7 +21,6 @@ public class Dialogue : MonoBehaviour
     {
         textComponent.text = string.Empty;
         StartDialogue();
-        movementScript.enabled = false;
     }
 
     void Update()
@@ -44,6 +43,7 @@ public class Dialogue : MonoBehaviour
     public void StartDialogue()
     {
         index = 0;
+        movementScript.enabled = false;
         StartCoroutine(TypeLine());
     }
 

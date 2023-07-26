@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShopManager : MonoBehaviour
 {
+    public Dialogue dialogueScript;
+
     public GameObject chooseShop;
     public GameObject buyShop;
 
@@ -20,6 +22,8 @@ public class ShopManager : MonoBehaviour
 
     public void Buy()
     {
-
+        //dialogueScript.gameObject.SetActive(false);
+        //dialogueScript.portraitPhoto.gameObject.SetActive(false);
+        buyShop.SetActive(true);
     }
 }
