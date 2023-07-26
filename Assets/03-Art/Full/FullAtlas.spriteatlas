@@ -50,6 +50,30 @@ SpriteAtlas:
   - {fileID: -1701451030, guid: f2427350bc947574c87a7497c479715f, type: 3}
   - {fileID: -792103828, guid: f2427350bc947574c87a7497c479715f, type: 3}
   - {fileID: 464421847, guid: f2427350bc947574c87a7497c479715f, type: 3}
+  - {fileID: -415305014, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -695318928, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -176306016, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: 256581091, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: 819165450, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -1582447932, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: 336212369, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -286611304, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -2146353467, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -224297225, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: 1779327068, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: 1303768381, guid: 317ed5e04773aa84e85006d1aa806049, type: 3}
+  - {fileID: -1975785044, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: -984132967, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 116706622, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 1040802532, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: -602708267, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 321467180, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 667795083, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 1670455143, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 985517041, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: -547257259, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: 470270896, guid: a7da365190e4144489793272ec103ad3, type: 3}
+  - {fileID: -1791376727, guid: a7da365190e4144489793272ec103ad3, type: 3}
   - {fileID: -926486673, guid: 59cb76a1f4a8bbb4090ef9bc97a9156a, type: 3}
   - {fileID: 462350721, guid: 59cb76a1f4a8bbb4090ef9bc97a9156a, type: 3}
   - {fileID: -1361460519, guid: 59cb76a1f4a8bbb4090ef9bc97a9156a, type: 3}
@@ -81,6 +105,18 @@ SpriteAtlas:
   - {fileID: 1757445300, guid: e13354044cfb78147bc5b18d7f9e1144, type: 3}
   - {fileID: 1373233247, guid: e13354044cfb78147bc5b18d7f9e1144, type: 3}
   - {fileID: 1264707255, guid: e13354044cfb78147bc5b18d7f9e1144, type: 3}
+  - {fileID: 581719514, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: -1342090972, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 441520554, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 553941324, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: -1253545752, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 895386409, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 1312357575, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 404357627, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 525291848, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 95035331, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: 1614231984, guid: 37d56f850d8be7547a35470963b23223, type: 3}
+  - {fileID: -1166651466, guid: 37d56f850d8be7547a35470963b23223, type: 3}
   - {fileID: 21300000, guid: 5c7be717f076eda489c21b17ad89f1fd, type: 3}
   - {fileID: -1610816471, guid: e9b4a8c86686c06459b6ea24f52a4f21, type: 3}
   - {fileID: -1491274511, guid: e9b4a8c86686c06459b6ea24f52a4f21, type: 3}
@@ -106,6 +142,18 @@ SpriteAtlas:
   - {fileID: 596676448, guid: baa3345a0c62c3d4283bfe38a93b862c, type: 3}
   - {fileID: -63622944, guid: baa3345a0c62c3d4283bfe38a93b862c, type: 3}
   - {fileID: 1492262359, guid: baa3345a0c62c3d4283bfe38a93b862c, type: 3}
+  - {fileID: 17593218, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: 103652524, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: -1594632051, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: -651925558, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: -798714906, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: -106690322, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: 182389182, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: 2136253881, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: -1569186429, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: -232076254, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: 777806630, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
+  - {fileID: 417653355, guid: 0320afea590c94e46816349ba7e43f46, type: 3}
   - {fileID: 517780148, guid: 92a841fa7ec6a374b98748625bc36889, type: 3}
   - {fileID: 1808541538, guid: 92a841fa7ec6a374b98748625bc36889, type: 3}
   - {fileID: 514291177, guid: 92a841fa7ec6a374b98748625bc36889, type: 3}
@@ -371,6 +419,30 @@ SpriteAtlas:
   - Woman_3
   - Woman_0
   - Woman_1
+  - Bottom4_10
+  - Bottom4_11
+  - Bottom4_9
+  - Bottom4_8
+  - Bottom4_7
+  - Bottom4_6
+  - Bottom4_5
+  - Bottom4_4
+  - Bottom4_3
+  - Bottom4_2
+  - Bottom4_1
+  - Bottom4_0
+  - Body4_4
+  - Body4_5
+  - Body4_6
+  - Body4_7
+  - Body4_0
+  - Body4_1
+  - Body4_2
+  - Body4_3
+  - Body4_8
+  - Body4_9
+  - Body4_11
+  - Body4_10
   - Portraits_4
   - Portraits_5
   - Portraits_6
@@ -402,6 +474,18 @@ SpriteAtlas:
   - Shopkeeper_1
   - Shopkeeper_2
   - Shopkeeper_3
+  - Headgear2_10
+  - Headgear2_11
+  - Headgear2_7
+  - Headgear2_6
+  - Headgear2_5
+  - Headgear2_4
+  - Headgear2_3
+  - Headgear2_2
+  - Headgear2_1
+  - Headgear2_0
+  - Headgear2_9
+  - Headgear2_8
   - z8
   - Body1_10
   - Body1_11
@@ -427,6 +511,18 @@ SpriteAtlas:
   - Base2_4
   - Base2_9
   - Base2_8
+  - Headgear1_11
+  - Headgear1_10
+  - Headgear1_0
+  - Headgear1_1
+  - Headgear1_2
+  - Headgear1_3
+  - Headgear1_4
+  - Headgear1_5
+  - Headgear1_6
+  - Headgear1_7
+  - Headgear1_8
+  - Headgear1_9
   - tiles2_10
   - tiles2_11
   - tiles2_12

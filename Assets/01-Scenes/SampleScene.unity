@@ -70541,13 +70541,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a58bc5a8be3b96645b5631c5ad250d7e, type: 2}
   - {fileID: 11400000, guid: 1b37b055ff57ff24e8a81af5bb0848ff, type: 2}
   shopItems2:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  partsOwnedToSellList:
   - {fileID: 11400000, guid: a58bc5a8be3b96645b5631c5ad250d7e, type: 2}
   - {fileID: 11400000, guid: 1b37b055ff57ff24e8a81af5bb0848ff, type: 2}
+  partsOwnedToSellList:
+  - {fileID: 0}
+  - {fileID: 0}
   shopPanelsGO:
   - {fileID: 383972898}
   - {fileID: 1684230898}
@@ -70859,7 +70857,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.24, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
