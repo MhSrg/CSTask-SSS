@@ -7,6 +7,7 @@ public class Dialogue : MonoBehaviour
 {
     public CollisionCollider collisionColliderScript;
     public GameObject portraitPhoto;
+    public GameObject z;
 
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -27,6 +28,7 @@ public class Dialogue : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Z))
         {
+            z.SetActive(false);
             if(textComponent.text == lines[index])
             {
                 NextLine();

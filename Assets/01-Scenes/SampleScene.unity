@@ -23002,7 +23002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a679f99b2036b0a41af5a28d8e2e1e10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a0f047b7a0c293488f4de2c7acb5cb6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27223,6 +27223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionColliderScript: {fileID: 0}
   portraitPhoto: {fileID: 297761090}
+  z: {fileID: 0}
   textComponent: {fileID: 335356798}
   lines:
   - Hello there! Here, from the desk in front of you!

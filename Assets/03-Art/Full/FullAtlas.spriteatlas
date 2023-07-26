@@ -188,6 +188,7 @@ SpriteAtlas:
   - {fileID: -1122957414, guid: 1f49326b1d03f7042ad227aad33a3a38, type: 3}
   - {fileID: -300557764, guid: 1f49326b1d03f7042ad227aad33a3a38, type: 3}
   - {fileID: 495867925, guid: 1f49326b1d03f7042ad227aad33a3a38, type: 3}
+  - {fileID: 21300000, guid: 2a0f047b7a0c293488f4de2c7acb5cb6, type: 3}
   - {fileID: 1354026000, guid: fae98bdbb524f99449f05e7ef1d5a5a4, type: 3}
   - {fileID: 21656128, guid: fae98bdbb524f99449f05e7ef1d5a5a4, type: 3}
   - {fileID: -1368510617, guid: fae98bdbb524f99449f05e7ef1d5a5a4, type: 3}
@@ -320,6 +321,7 @@ SpriteAtlas:
   - {fileID: 1258896128, guid: 1d67166f6e17e064bb627cbac2bff9ef, type: 3}
   - {fileID: -1367980776, guid: 1d67166f6e17e064bb627cbac2bff9ef, type: 3}
   - {fileID: 2141153941, guid: 1d67166f6e17e064bb627cbac2bff9ef, type: 3}
+  - {fileID: 21300000, guid: 148fadbfdc6530044bd9f54111f9c43e, type: 3}
   - {fileID: 967613978, guid: f778fcef5934d114b85b993643985c68, type: 3}
   - {fileID: 462437006, guid: f778fcef5934d114b85b993643985c68, type: 3}
   - {fileID: 522674932, guid: f778fcef5934d114b85b993643985c68, type: 3}
@@ -483,6 +485,7 @@ SpriteAtlas:
   - Woman2_3
   - Woman2_0
   - Woman2_1
+  - z5
   - Bottom0_3
   - Bottom0_2
   - Bottom0_1
@@ -615,6 +618,7 @@ SpriteAtlas:
   - OldMan_0
   - OldMan_10
   - OldMan_11
+  - z6
   - Head1_9
   - Head1_8
   - Head1_3
