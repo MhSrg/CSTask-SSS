@@ -11,6 +11,7 @@ public class CollisionCollider : MonoBehaviour
     public bool firstConv;
     public bool kayLines;
     public Dialogue dialogueScript;
+    public ShopManager shopManagerScript;
 
     public GameObject equipmentBigBox;
 
@@ -48,8 +49,9 @@ public class CollisionCollider : MonoBehaviour
         {
             dialogueScript.gameObject.SetActive(true);
             dialogueScript.portraitPhoto.SetActive(true);
-            portrait.sprite = Resources.Load<Sprite>("Portraits/Cultist");
+            portrait.sprite = Resources.Load<Sprite>("Portraits/Kay");
             dialogueScript.StartDialogue();
+            shopManagerScript.chooseShop.SetActive(true);
         }
     }
 }
