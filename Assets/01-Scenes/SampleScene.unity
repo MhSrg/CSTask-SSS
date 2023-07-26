@@ -29281,8 +29281,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   z: {fileID: 2140108893}
+  portrait: {fileID: 322414723}
   firstZ: 0
   firstConv: 0
+  kayLines: 0
   dialogueScript: {fileID: 1447512154}
   equipmentBigBox: {fileID: 113808944}
 --- !u!1 &1404604984

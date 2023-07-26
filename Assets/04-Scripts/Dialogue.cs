@@ -17,7 +17,6 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
-    // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
@@ -25,7 +24,6 @@ public class Dialogue : MonoBehaviour
         movementScript.enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Z))
@@ -43,7 +41,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void StartDialogue()
+    public void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine());
