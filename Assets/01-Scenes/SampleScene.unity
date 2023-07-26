@@ -2942,6 +2942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98435720}
   - component: {fileID: 98435721}
+  - component: {fileID: 98435722}
   m_Layer: 0
   m_Name: OldMan_10
   m_TagString: Untagged
@@ -3016,6 +3017,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &98435722
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98435719}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029109824, y: -0.04002603}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.24, y: 0.32}
+    newSize: {x: 0.24, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.19997397, y: 0.23994793}
+  m_EdgeRadius: 0
 --- !u!1 &101839889
 GameObject:
   m_ObjectHideFlags: 0
@@ -10673,7 +10700,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: -6.15
+  m_characterSpacing: -12.76
   m_wordSpacing: -7.08
   m_lineSpacing: 66.85
   m_lineSpacingMax: 0
@@ -17476,6 +17503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 551878893}
+  - component: {fileID: 551878894}
   m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
@@ -17502,6 +17530,32 @@ Transform:
   m_Father: {fileID: 631169762}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &551878894
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551878892}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 6.3449345, y: -3.7086587}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17873, y: 1.3276739}
+  m_EdgeRadius: 0
 --- !u!1 &556260162
 GameObject:
   m_ObjectHideFlags: 0
@@ -26503,6 +26557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 801224191}
   - component: {fileID: 801224192}
+  - component: {fileID: 801224193}
   m_Layer: 0
   m_Name: Man_4
   m_TagString: Untagged
@@ -26577,6 +26632,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &801224193
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801224190}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.018193655, y: -0.027290486}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.24, y: 0.32}
+    newSize: {x: 0.24, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2036127, y: 0.265419}
+  m_EdgeRadius: 0
 --- !u!1 &803057547
 GameObject:
   m_ObjectHideFlags: 0
@@ -46242,6 +46323,15 @@ MonoBehaviour:
   firstZ: 0
   firstConv: 0
   kayLines: 0
+  manLines: 0
+  manLines2: 0
+  talkedToMan: 0
+  talkedToOldMan: 0
+  oldManLines: 0
+  oldManLines2: 0
+  receivedManGift: 0
+  receivedOldManGift: 0
+  manGiftLines: 0
   dialogueScript: {fileID: 1447512154}
   shopManagerScript: {fileID: 2111897028}
   equipmentBigBox: {fileID: 113808944}
@@ -48044,6 +48134,35 @@ MonoBehaviour:
   - Let me know if you need anything.
   linesSK:
   - Hi! How can I help you?
+  linesM4:
+  - I just can't win against this old man...
+  - I can't keep betting against him
+  - Hey you, take this, and leave me alone
+  - '*you received 7 gold*'
+  manLines2:
+  - Go away!
+  oldManLines:
+  - He he he, you lack experience, Guille
+  - I've gained so much gold, what will I do?
+  - You, young one, take some...
+  - '*you received 15 gold*'
+  oldManLines2:
+  - Go go now...
+  roseLines:
+  - I'm sorry, but this is a restricted area
+  benjaminLines:
+  - Hear me out Amanda, please!
+  - They say there's a mysterious figure
+  - around this place, isn't it scary?
+  amandaLines:
+  - Ben, I do wonder if you're fooling around
+  - Or you're just blind...
+  cultistLines:
+  - ...huh? How did you find me...?
+  - Nevermind, you're not the one...
+  - '*you found 30 pieces of gold*'
+  doorLines:
+  - It's locked
   textSpeed: 0.05
 --- !u!1 &1448773129
 GameObject:
@@ -70331,6 +70450,7 @@ GameObject:
   - component: {fileID: 2111897023}
   - component: {fileID: 2111897027}
   - component: {fileID: 2111897028}
+  - component: {fileID: 2111897029}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -70588,6 +70708,32 @@ MonoBehaviour:
   chooseShop: {fileID: 1410480963}
   buyShop: {fileID: 1811614671}
   selectedBody: {fileID: 0}
+--- !u!61 &2111897029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111897022}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2115510251
 GameObject:
   m_ObjectHideFlags: 0

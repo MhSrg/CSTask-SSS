@@ -70,8 +70,9 @@ public class ShopManager : MonoBehaviour
         shopPanels[btnNo].buyButton.enabled = false;
     }
 
-    public void AddGold()
+    public void AddGold(int gainedGold)
     {
+        gold = gold + gainedGold;
         goldUI.text = gold.ToString();
         CheckPurchaseable();
         Debug.Log("se añadió oro");

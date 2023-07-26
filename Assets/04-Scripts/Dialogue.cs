@@ -13,6 +13,15 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public string[] linesSK;
+    public string[] linesM4;
+    public string[] manLines2;
+    public string[] oldManLines;
+    public string[] oldManLines2;
+    public string[] roseLines;
+    public string[] benjaminLines;
+    public string[] amandaLines;
+    public string[] cultistLines;
+    public string[] doorLines;
     public float textSpeed;
 
     private int index;
