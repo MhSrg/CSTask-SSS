@@ -22,8 +22,6 @@ public class ShopManager : MonoBehaviour
 
     public void Buy()
     {
-        //dialogueScript.gameObject.SetActive(false);
-        //dialogueScript.portraitPhoto.gameObject.SetActive(false);
         buyShop.SetActive(true);
     }
 }
