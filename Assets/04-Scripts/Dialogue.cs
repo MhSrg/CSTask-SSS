@@ -13,6 +13,7 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public string[] linesSK;
+    public string[] linesSKT;
     public string[] linesM4;
     public string[] manLines2;
     public string[] oldManLines;
@@ -79,5 +80,10 @@ public class Dialogue : MonoBehaviour
             portraitPhoto.SetActive(false);
             movementScript.enabled = true;
         }
+    }
+
+    public void TalkBox()
+    {
+        lines = linesSKT;
     }
 }
