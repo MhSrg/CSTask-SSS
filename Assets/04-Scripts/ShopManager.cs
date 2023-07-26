@@ -1,9 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ShopManager : MonoBehaviour
 {
+    public int gold;
+    public TMP_Text goldUI;
+    public SO_Items[] shopItems;
+    public ShopTemplate[] shopPanels;
+
     public Dialogue dialogueScript;
 
     public GameObject chooseShop;
@@ -11,6 +18,9 @@ public class ShopManager : MonoBehaviour
 
     void Start()
     {
+        goldUI.text = gold.ToString();
+        LoadItems();
+
         chooseShop.SetActive(false);
         buyShop.SetActive(false);
     }
@@ -23,5 +33,19 @@ public class ShopManager : MonoBehaviour
     public void Buy()
     {
         buyShop.SetActive(true);
+    }
+
+    public void AddGold()
+    {
+        goldUI.text = gold.ToString();
+    }
+
+    public void LoadItems()
+    {
+        for (int i = 0; i < shopItems.Length; i++)
+        {
+            shopPanels[i].titleTxt.text = shopItems[i].itemName;
+            shopPanels[i].priceTxt.text = shopItems[i].value.ToString();
+        }
     }
 }

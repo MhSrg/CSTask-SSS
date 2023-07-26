@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public Itemz[] itemsInInventory;
+    public BodyPart[] availableBodyParts;
 
-    [System.Serializable]
+    /*[System.Serializable]
     public class Itemz
     {
         public string itemName;
         public SO_Items item;
-    }
+    }*/
 }
