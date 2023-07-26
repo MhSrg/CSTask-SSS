@@ -8,6 +8,7 @@ public class Dialogue : MonoBehaviour
     public CollisionCollider collisionColliderScript;
     public GameObject portraitPhoto;
     public GameObject z;
+    public Movement movementScript;
 
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -21,6 +22,7 @@ public class Dialogue : MonoBehaviour
     {
         textComponent.text = string.Empty;
         StartDialogue();
+        movementScript.enabled = false;
     }
 
     // Update is called once per frame
@@ -68,6 +70,7 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
             portraitPhoto.SetActive(false);
+            movementScript.enabled = true;
         }
     }
 }

@@ -2673,7 +2673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &113808945
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29082,6 +29082,7 @@ GameObject:
   - component: {fileID: 1404434443}
   - component: {fileID: 1404434447}
   - component: {fileID: 1404434448}
+  - component: {fileID: 1404434449}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -29267,6 +29268,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.101738006, y: 0.17503026}
   m_EdgeRadius: 0
+--- !u!114 &1404434449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404434440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40d1243d0158e6f49950631f0f719226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  z: {fileID: 2140108893}
+  firstZ: 0
+  firstConv: 0
+  dialogueScript: {fileID: 1447512154}
+  equipmentBigBox: {fileID: 113808944}
 --- !u!1 &1404604984
 GameObject:
   m_ObjectHideFlags: 0
@@ -30257,13 +30275,16 @@ MonoBehaviour:
   collisionColliderScript: {fileID: 0}
   portraitPhoto: {fileID: 297761090}
   z: {fileID: 1181241490}
+  movementScript: {fileID: 1404434444}
   textComponent: {fileID: 335356798}
   lines:
   - Hello there! Here, from the desk in front of you!
   - Welcome to Kay's Clothes Shop!
   - Here you can buy and even sell clothes!
   - Let me know if you need anything.
-  linesSK: []
+  linesSK:
+  - you changed
+  - right?
   textSpeed: 0.05
 --- !u!1 &1448773129
 GameObject:
