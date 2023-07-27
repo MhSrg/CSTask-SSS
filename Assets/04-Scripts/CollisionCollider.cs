@@ -197,4 +197,13 @@ public class CollisionCollider : MonoBehaviour
             dialogueScript.StartDialogue();
         }
     }
+    
+    public void TalkBox()
+    {
+        dialogueScript.lines = dialogueScript.linesSKT;
+        dialogueScript.gameObject.SetActive(true);
+        dialogueScript.portraitPhoto.SetActive(true);
+        portrait.sprite = Resources.Load<Sprite>("Portraits/Kay");
+        dialogueScript.StartDialogue();
+    }
 }

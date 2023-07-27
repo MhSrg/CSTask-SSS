@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     Vector2 movement;
+    public Vector3 lastMoveDirection;
 
     private void Update()
     {
@@ -23,4 +24,6 @@ public class Movement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * movementS * Time.fixedDeltaTime);
     }
+
+
 }

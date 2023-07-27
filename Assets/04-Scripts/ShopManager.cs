@@ -13,7 +13,11 @@ public class ShopManager : MonoBehaviour
     public SO_BodyPart[] partsOwnedToSellList;
     public GameObject[] shopPanelsGO;
     public ShopTemplate[] shopPanels;
-    public Button[] myPurchaseButtons;
+    public Button[] myPurchaseButtons; 
+    
+    public GameObject[] shopPanelsGO2;
+    public ShopTemplate[] shopPanels2;
+    public Button[] myPurchaseButtons2;
 
     public Dialogue dialogueScript;
     public BodyPartsManager bodyPartsManagerScript;
@@ -30,9 +34,9 @@ public class ShopManager : MonoBehaviour
             shopPanelsGO[i].SetActive(true);
         }
 
-        for (int i = 0; i < partsOwnedToSellList.Length; i++)
+        for (int i = 0; i < shopItems2.Length; i++)
         {
-            shopPanelsGO[i].SetActive(true);
+            shopPanelsGO2[i].SetActive(true);
         }
 
         goldUI.text = gold.ToString();
@@ -55,9 +59,13 @@ public class ShopManager : MonoBehaviour
             gold = gold - shopItems[btnNo].buyPrice;
             goldUI.text = gold.ToString();
             CheckPurchaseable();
-            shopPanels[btnNo].soldTxt.enabled = true;
+            /*shopPanels[btnNo].soldTxt.enabled = true;
             shopPanels[btnNo].priceTxt.enabled = false;
-            shopPanels[btnNo].buyButton.enabled = false;
+            shopPanels[btnNo].buyButton.enabled = false;*/
+
+            shopPanels2[btnNo].soldTxt.enabled = true;
+            shopPanels2[btnNo].priceTxt.enabled = false;
+            shopPanels2[btnNo].buyButton.enabled = false;
         }
     }
 
@@ -65,9 +73,13 @@ public class ShopManager : MonoBehaviour
     {
         gold = gold + partsOwnedToSellList[btnNo].sellPrice;
         goldUI.text = gold.ToString();
-        shopPanels[btnNo].soldTxt.enabled = true;
+        /*shopPanels[btnNo].soldTxt.enabled = true;
         shopPanels[btnNo].priceTxt.enabled = false;
-        shopPanels[btnNo].buyButton.enabled = false;
+        shopPanels[btnNo].buyButton.enabled = false;*/
+
+        shopPanels2[btnNo].soldTxt.enabled = true;
+        shopPanels2[btnNo].priceTxt.enabled = false;
+        shopPanels2[btnNo].buyButton.enabled = false;
     }
 
     public void AddGold(int gainedGold)
@@ -89,9 +101,9 @@ public class ShopManager : MonoBehaviour
 
         for (int i = 0; i < shopItems2.Length; i++)
         {
-            shopPanels[i].titleTxt.text = shopItems2[i].bodyPartName;
-            shopPanels[i].spriteItem = shopItems2[i].spriteOnShop;
-            shopPanels[i].priceTxt.text = shopItems2[i].buyPrice.ToString();
+            shopPanels2[i].titleTxt.text = shopItems2[i].bodyPartName;
+            shopPanels2[i].spriteItem = shopItems2[i].spriteOnShop;
+            shopPanels2[i].priceTxt.text = shopItems2[i].buyPrice.ToString();
         }
     }
 
@@ -102,10 +114,12 @@ public class ShopManager : MonoBehaviour
             if (gold >= shopItems[i].buyPrice)
             {
                 myPurchaseButtons[i].interactable = true;
+                //myPurchaseButtons2[i].interactable = true;
             }
             else
             {
                 myPurchaseButtons[i].interactable = false;
+                //myPurchaseButtons2[i].interactable = false;
             }
         }
     }

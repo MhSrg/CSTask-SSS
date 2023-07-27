@@ -81,9 +81,4 @@ public class Dialogue : MonoBehaviour
             movementScript.enabled = true;
         }
     }
-
-    public void TalkBox()
-    {
-        lines = linesSKT;
-    }
 }
